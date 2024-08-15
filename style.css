@@ -1,0 +1,630 @@
+*{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box
+}
+
+.navbar{
+    height: 60px; 
+    background-color: #221d1d;
+    color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.border{
+    border: 0.5px solid transparent;
+    padding: 10px;
+    border-radius: 10%;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-left: -1000px;
+}
+
+.border:hover{
+    border: 0px solid #4b4646;
+    color: rgb(233, 146, 32);
+}
+
+.navlogo{
+    width: 100px;
+    height: 50px;
+}
+
+
+.logo{
+    background-image: url("amazon-logo-amazon-icon-transparent-free-png.webp");
+    background-color: #f7f7f7;
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    padding-top: -40px;
+    padding-bottom: -10px;
+    padding-right: 10px ;
+    border-radius: 50%;  
+
+}
+
+.firstad{
+    color:#cec4c4;
+    font-size: 0.74rem;
+    padding-left: 13px;
+     
+}
+
+.secad{
+    font-size: 1rem;
+    margin-left: 5px;
+
+
+    
+}
+
+.add-icon{
+    display: flex;
+}
+
+.add-icon i{
+ font-size: 0.75rem;
+}
+
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 4000px;
+    background-color:transparent;
+}
+
+.searchsel{
+    border: none;
+    padding-left: 10px;
+    background-color:  rgb(233, 146, 32);
+      padding: 10px;
+      align-items: center;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      height: 36px;
+}
+
+.searchinp{
+    border: 2px solid rgb(233, 146, 32);
+    background-color: #f7f7f7;
+    padding-left: 10px;
+    width: 80%;
+    height: 29px;
+   padding-top: 2.5px;
+      font-size: 1.15rem;
+}
+.searchicon{
+    font-size: 1.5rem;
+    color: rgb(22, 22, 22);
+     background-color: rgb(233, 146, 32);
+     height: 30px;
+     padding: 3px;
+     padding-top: 3px;
+     border: 2px solid rgb(233, 146, 32);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
+    align-items:center;
+    display: flex;
+    padding-left: 10px;
+
+}
+
+.carttext{
+     display: flex;
+     font-size: 1rem;
+     align-items: center;
+     padding-right: 10px;
+     font-weight: bolder;
+    
+}
+
+.carticon{
+      font-size: 1.5rem;
+      color: white;
+      padding-left: 10px;
+      margin-left: 150px;
+}
+
+.span{
+    font-size: 0.75rem;
+      color: #b4b3b3;
+}
+
+
+.nav-second:hover{
+    color: rgb(233, 146, 32);
+}
+
+.nav-second {
+    font-size: 1rem;
+    font-weight: bolder;    
+}
+
+.panel{
+    height:40px;
+    display:flex;
+    background-color: #2c343d;
+    color: #f3f3f3;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panelalls{
+    width: 80%;
+    display:flex;
+    font-size: 0.85rem;
+    justify-content: space-evenly;
+
+}
+.panelall{
+    font-size: 0.9rem;
+    color: white;
+    font-weight: bolder;
+}
+.paneldeal{
+    font-size: 0.9rem;
+    color: white;
+    font-weight: bolder; 
+}
+.herosection{
+    background-image: url("61CiqVTRBEL._SX3000_.jpg");
+    height: 400px;
+    background-size: cover;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.heromsg{
+    background-color: rgb(245, 146, 17);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    font-size: 1rem;
+    margin-top: 300px;
+    margin-bottom: -24px;
+    border: 40px;
+    border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+    
+}
+
+
+.click {
+    color:#fffaf9;
+    display: flex;
+    justify-content: space-around;
+    }
+.shopsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopsection{
+    background-color:#221d1d;
+    margin-top: -50px;
+    
+
+    
+}
+
+.box{
+/** border: 2px solid rgb(224, 30, 199); **/
+    height: 350px;
+    width: 400px;
+    margin: 40px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    background-color:#2c343d;
+    padding: 20px 0px 15px;
+    border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+    
+}
+
+.imgbox {
+    height:280px;
+    background-size: cover;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+    
+}
+.boxcontent{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.boxcontent p{
+        color: rgb(179, 238, 18);
+        font-weight: bold;
+        padding-left: 8rem;
+}
+.boxcontent h2{
+    color: rgb(230, 227, 227);
+    font-weight: bold;
+    padding-left: 5rem;
+}
+
+.section2{
+    display:grid;
+    align-items:end;
+    justify-content: center;
+}   
+.section2{
+background-image: url("Purple and Pink Gradient Simple Neon Futuristic Technology Desktop Wallpaper.png");
+    padding-top:-700px;
+    height: 2000px;
+    background-size: cover;
+
+}
+.boxs{
+height: 350px;
+width: 350px;
+margin-top: 10px;
+margin-left: 10px;
+    margin-right: 10px;
+justify-content: space-around;
+margin-bottom: 20px;
+background-color: rgba(124, 30, 211, 0.25);
+padding:5px;
+border-radius: 50%;
+/**border-top-left-radius: 15px;
+ border-bottom-left-radius: 15px;
+ border-top-right-radius: 15px;
+ border-bottom-right-radius: 15px;**/
+}
+.spider{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 500px;
+    margin-top: -1430px;
+    height: 300px;
+
+}
+.borders{
+    border: 2px solid transparent;
+}
+.box4boxs:hover{
+  border: 7px solid;
+  color: #f1f1f1;
+}
+
+.box5boxs:hover{
+  border: 7px solid;
+  color: #f1f1f1;
+}
+
+.box6boxs:hover{
+  border: 7px solid;
+  color: #f1f1f1;
+}
+.box7boxs:hover{
+  border: 7px solid;
+  color: #f1f1f1;
+}
+
+
+
+.imgboxs{
+    height:330px;
+    background-size: cover;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+     border-radius: 50% ;
+}
+
+.doom {
+    background-image: url("doom_PNG35.png");
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: -700px;
+    margin-left: 400px;
+    background-image: cover;
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count:1;
+    animation-play-state: paused;
+  }
+  
+  .doom:hover {
+    animation-play-state: running;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .doom2 {
+    background-image: url("doom_PNG12.png");
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 1300px;
+    background-image: cover;
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+  }
+  
+  .doom2:hover {
+    animation-play-state: running;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .doom3 {
+    background-image: url("doom_PNG12.png");
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 400px;
+    background-image: cover;
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count:1;
+    animation-play-state: paused;
+  }
+  
+  .doom3:hover {
+    animation-play-state: running;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .doom5 {
+    background-image: url("doom_PNG35.png");
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 210px;
+    margin-left: 400px;
+    background-image: cover;
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count:1;
+    animation-play-state: paused;
+  }
+  
+  .doom5:hover {
+    animation-play-state: running;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .doom7 {
+    background-image: url("doom_PNG12.png");
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 400px;
+    background-image: cover;
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count:1;
+    animation-play-state: paused;
+  }
+  
+  .doom7:hover {
+    animation-play-state: running;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .doom4 {
+    background-image: url("doom_PNG35.png");
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 1300px;
+    background-image: cover;
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+  }
+  
+  .doom4:hover {
+    animation-play-state: running;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .doom6 {
+    background-image: url("doom_PNG12.png");
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 1300px;
+    background-image: cover;
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+  }
+  
+  .doom6:hover {
+    animation-play-state: running;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .doom8 {
+    background-image: url("doom_PNG35.png");
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 1300px;
+    background-image: cover;
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+  }
+  
+  .doom8:hover {
+    animation-play-state: running;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .herosmsg{
+    background-color: rgb(245, 146, 17);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    font-size: 1rem;
+    margin-top: -2000px;
+    margin-bottom: -24px;
+    margin-left: 100px;
+    border: 40px;
+    border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+    
+}
+.clicks {
+  color:#fffaf9;
+  display: flex;
+  justify-content: space-around;
+  }
+  
+  .footerp1{
+    height:40px;
+    display:flex;
+    background-color: #2c343d;
+    color: #f3f3f3;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2000px;
+    margin-bottom: 700px;
+}
+.footerp2{
+  background-color: #221d1d;
+  margin-top: -700px;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  height: 700px;
+}
+ul {
+  margin-top: -250px;
+}
+ul li{
+  margin-top: 20px;
+  color: #cec4c4;
+}
+ul p{
+  color: rgb(248, 248, 248);
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.borderss ul li{
+  border: 0.5px solid transparent;
+  padding: px;
+  border-radius: 10%;
+  margin-right: px;
+  margin-left: px;
+  padding-left: -1000px;
+}
+
+.borderss ul li:hover{
+  border: 0px solid #4b4646;
+  color: rgb(233, 146, 32);
+}
+
+
+ 
+
+  
+
+ 
+
+  
